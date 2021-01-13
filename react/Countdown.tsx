@@ -24,7 +24,7 @@ const Countdown: StorefrontFunctionComponent<CountdownProps> = ({ targetDate = D
   
   return (
     <div className={`${handles.countdown} c-muted-1 db tc`}> 
-      { `${timeRemaining.hours}:${timeRemaining.minutes}:${timeRemaining.seconds}` }
+     <h1> { `${timeRemaining.hours}:${timeRemaining.minutes}:${timeRemaining.seconds}` }</h1>
   </div>
   )
 }
